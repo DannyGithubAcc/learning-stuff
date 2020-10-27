@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "html-elements": [
+        "dist/html-elements"
+      ],
+      "html-elements/*": [
+        "dist/html-elements/*"
+      ],
+      "html-common-components": [
+        "dist/html-common-components"
+      ],
+      "html-common-components/*": [
+        "dist/html-common-components/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

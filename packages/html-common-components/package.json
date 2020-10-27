@@ -1,0 +1,21 @@
+{
+  "name": "html-common-components",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/html-common-components.umd.js",
+  "module": "fesm5/html-common-components.js",
+  "es2015": "fesm2015/html-common-components.js",
+  "esm5": "esm5/html-common-components.js",
+  "esm2015": "esm2015/html-common-components.js",
+  "fesm5": "fesm5/html-common-components.js",
+  "fesm2015": "fesm2015/html-common-components.js",
+  "typings": "html-common-components.d.ts",
+  "metadata": "html-common-components.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
