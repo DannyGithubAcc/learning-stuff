@@ -121,33 +121,33 @@
         }
       }
     },
-    "html-elements": {
+    "html-elements-pocje": {
       "projectType": "library",
-      "root": "projects/html-elements",
-      "sourceRoot": "projects/html-elements/src",
+      "root": "projects/html-elements-pocje",
+      "sourceRoot": "projects/html-elements-pocje/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/html-elements/tsconfig.lib.json",
-            "project": "projects/html-elements/ng-package.json"
+            "tsConfig": "projects/html-elements-pocje/tsconfig.lib.json",
+            "project": "projects/html-elements-pocje/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/html-elements/src/test.ts",
-            "tsConfig": "projects/html-elements/tsconfig.spec.json",
-            "karmaConfig": "projects/html-elements/karma.conf.js"
+            "main": "projects/html-elements-pocje/src/test.ts",
+            "tsConfig": "projects/html-elements-pocje/tsconfig.spec.json",
+            "karmaConfig": "projects/html-elements-pocje/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/html-elements/tsconfig.lib.json",
-              "projects/html-elements/tsconfig.spec.json"
+              "projects/html-elements-pocje/tsconfig.lib.json",
+              "projects/html-elements-pocje/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

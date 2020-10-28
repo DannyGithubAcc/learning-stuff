@@ -72,9 +72,9 @@ var HtmlElementsModule = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: html-elements.ts
+ * Generated from: html-elements-pocje.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 export { HtmlElementsComponent, HtmlElementsModule, HtmlElementsService };
-//# sourceMappingURL=html-elements.js.map
+//# sourceMappingURL=html-elements-pocje.js.map

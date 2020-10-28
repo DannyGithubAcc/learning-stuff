@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core')) :
-    typeof define === 'function' && define.amd ? define('html-elements', ['exports', '@angular/core'], factory) :
-    (global = global || self, factory(global['html-elements'] = {}, global.ng.core));
+    typeof define === 'function' && define.amd ? define('html-elements-pocje', ['exports', '@angular/core'], factory) :
+    (global = global || self, factory(global['html-elements-pocje'] = {}, global.ng.core));
 }(this, (function (exports, core) { 'use strict';
 
     /**
@@ -75,4 +75,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=html-elements.umd.js.map
+//# sourceMappingURL=html-elements-pocje.umd.js.map
